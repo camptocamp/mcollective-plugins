@@ -1,0 +1,2 @@
+agent/nettest/agent/nettest.rb /usr/share/mcollective/plugins/mcollective/agent
+agent/nettest/agent/nettest.ddl       /usr/share/mcollective/plugins/mcollective/agent

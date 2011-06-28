@@ -1,0 +1,3 @@
+agent/puppetd/commander/puppetcommanderd      /usr/sbin
+agent/puppetd/commander/puppetcommander.cfg   /etc
+agent/puppetd/commander/puppetcommander.init  /..

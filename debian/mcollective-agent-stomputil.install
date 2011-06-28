@@ -1,0 +1,2 @@
+agent/stomputil/stomputil.rb    /usr/share/mcollective/plugins/mcollective/agent
+agent/stomputil/stomputil.ddl   /usr/share/mcollective/plugins/mcollective/agent

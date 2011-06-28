@@ -1,0 +1,2 @@
+agent/service/agent/puppet-service.rb /usr/share/mcollective/plugins/mcollective/agent
+agent/service/agent/service.ddl       /usr/share/mcollective/plugins/mcollective/agent

@@ -1,0 +1,95 @@
+Source: mcollective-plugins
+Priority: optional
+Maintainer: Marc Fournier <marc.fournier@camptocamp.com>
+Section: sysadmin
+Standards-Version: 3.7.3
+
+Package: mcollective-agent-filemgr
+Architecture: all
+Depends: mcollective
+Description: MCollective filemgr agent
+
+Package: mcollective-agent-filemgr-client
+Architecture: all
+Depends: mcollective-agent-filemgr
+Description: MCollective filemgr agent (client)
+
+Package: mcollective-agent-nettest
+Architecture: all
+Depends: mcollective, rubygem-net-ping
+Description: MCollective nettest agent
+
+Package: mcollective-agent-nettest-client
+Architecture: all
+Depends: mcollective-agent-nettest
+Description: MCollective nettest agent (client)
+
+Package: mcollective-agent-nrpe
+Architecture: all
+Depends: mcollective, nagios-nrpe-server
+Description: MCollective nrpe agent
+
+Package: mcollective-agent-nrpe-client
+Architecture: all
+Depends: mcollective-agent-nrpe
+Description: MCollective nrpe agent (client)
+
+Package: mcollective-agent-package
+Architecture: all
+Depends: mcollective
+Description: MCollective package agent
+
+Package: mcollective-agent-package-client
+Architecture: all
+Depends: mcollective-agent-package
+Description: MCollective package agent (client)
+
+Package: mcollective-agent-process
+Architecture: all
+Depends: mcollective, rubygem-sys-proctable
+Description: MCollective process agent
+
+Package: mcollective-agent-process-client
+Architecture: all
+Depends: mcollective-agent-process
+Description: MCollective process agent (client)
+
+Package: mcollective-agent-puppetd
+Architecture: all
+Depends: mcollective
+Description: MCollective puppetd agent
+
+Package: mcollective-agent-puppetd-client
+Architecture: all
+Depends: mcollective-agent-puppetd
+Description: MCollective puppetd agent (client)
+
+Package: mcollective-agent-service
+Architecture: all
+Depends: mcollective
+Description: MCollective service agent
+
+Package: mcollective-agent-service-client
+Architecture: all
+Depends: mcollective-agent-service
+Description: MCollective service agent (client)
+
+Package: mcollective-agent-stomputil
+Architecture: all
+Depends: mcollective
+Description: MCollective stomputil agent
+
+Package: mcollective-agent-stomputil-client
+Architecture: all
+Depends: mcollective-agent-stomputil
+Description: MCollective stomputil agent (client)
+
+Package: mcollective-security-sshkey
+Architecture: all
+Depends: mcollective, rubygem-sshkeyauth
+Description: MCollective sshkey security provider
+
+Package: puppetcommander
+Architecture: all
+Depends: mcollective-agent-puppetd-client
+Description: puppet scheduler using MCollective

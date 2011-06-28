@@ -1,0 +1,37 @@
+#!/usr/bin/make -f
+
+build:
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+install:
+	dh_testdir
+	dh_testroot
+	#dh_clean -k
+	dh_prep
+	dh_install
+	mv debian/mcollective-agent-package/usr/share/mcollective/plugins/mcollective/agent/puppet-package.rb \
+		 debian/mcollective-agent-package/usr/share/mcollective/plugins/mcollective/agent/package.rb
+	mv debian/mcollective-agent-service/usr/share/mcollective/plugins/mcollective/agent/puppet-service.rb \
+		 debian/mcollective-agent-service/usr/share/mcollective/plugins/mcollective/agent/service.rb
+	dh_installinit
+
+binary-arch:
+
+binary-indep: install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+
+.PHONY: clean install binary-arch binary-indep binary

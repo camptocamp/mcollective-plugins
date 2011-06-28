@@ -1,0 +1,2 @@
+agent/filemgr/agent/filemgr.rb        /usr/share/mcollective/plugins/mcollective/agent
+agent/filemgr/agent/filemgr.ddl       /usr/share/mcollective/plugins/mcollective/agent

@@ -1,0 +1,2 @@
+agent/nrpe/sbin/check-mc-nrpe   /usr/lib/nagios/plugins
+agent/nrpe/application/nrpe.rb  /usr/share/mcollective/plugins/mcollective/application

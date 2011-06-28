@@ -1,0 +1,5 @@
+mcollective-plugins (1.0-1) lenny squeeze; urgency=low
+
+  * Initial release.
+
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Wed, 22 Jun 2011 14:18:15 +0200

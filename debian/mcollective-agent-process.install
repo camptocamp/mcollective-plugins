@@ -1,0 +1,2 @@
+agent/process/process.ddl  /usr/share/mcollective/plugins/mcollective/agent
+agent/process/process.rb   /usr/share/mcollective/plugins/mcollective/agent
