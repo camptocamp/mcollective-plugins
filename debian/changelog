@@ -1,3 +1,9 @@
+mcollective-plugins (1.0-2) lenny squeeze; urgency=low
+
+  * addeded package for puppetca plugin.
+
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Tue, 06 Sep 2011 16:00:00 +0200
+
 mcollective-plugins (1.0-1) lenny squeeze; urgency=low
 
   * Initial release.
