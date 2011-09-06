@@ -1,0 +1,2 @@
+agent/puppetca/agent/puppetca.rb        /usr/share/mcollective/plugins/mcollective/agent
+agent/puppetca/agent/puppetca.ddl       /usr/share/mcollective/plugins/mcollective/agent

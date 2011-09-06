@@ -84,6 +84,11 @@ Architecture: all
 Depends: mcollective-agent-stomputil
 Description: MCollective stomputil agent (client)
 
+Package: mcollective-agent-puppetca
+Architecture: all
+Depends: mcollective
+Description: MCollective puppetca agent
+
 Package: mcollective-security-sshkey
 Architecture: all
 Depends: mcollective, rubygem-sshkeyauth
