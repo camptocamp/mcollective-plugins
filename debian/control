@@ -16,7 +16,7 @@ Description: MCollective filemgr agent (client)
 
 Package: mcollective-agent-nettest
 Architecture: all
-Depends: mcollective, rubygem-net-ping
+Depends: mcollective, ruby-net-ping
 Description: MCollective nettest agent
 
 Package: mcollective-agent-nettest-client
@@ -46,7 +46,7 @@ Description: MCollective package agent (client)
 
 Package: mcollective-agent-process
 Architecture: all
-Depends: mcollective, rubygem-sys-proctable
+Depends: mcollective, ruby-sys-proctable
 Description: MCollective process agent
 
 Package: mcollective-agent-process-client
