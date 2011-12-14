@@ -1,3 +1,11 @@
+mcollective-plugins (1.0-3) lenny squeeze; urgency=low
+
+  * merged changes from upstream
+  * rebuilt 2 gems with gem2deb, hence dep name change.
+  * some upstream files have (been re)moved.
+
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Wed, 14 Dec 2011 16:51:39 +0100
+
 mcollective-plugins (1.0-2) lenny squeeze; urgency=low
 
   * addeded package for puppetca plugin.
