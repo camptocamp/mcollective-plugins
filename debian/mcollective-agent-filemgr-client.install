@@ -1,2 +1,1 @@
-agent/filemgr/sbin/mc-filemgr         /usr/sbin
 agent/filemgr/application/filemgr.rb  /usr/share/mcollective/plugins/mcollective/application

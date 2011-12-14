@@ -1,2 +1,1 @@
-agent/puppetd/sbin/mc-puppetd         /usr/sbin
 agent/puppetd/application/puppetd.rb  /usr/share/mcollective/plugins/mcollective/application

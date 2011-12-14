@@ -1,2 +1,1 @@
-agent/service/sbin/mc-service         /usr/sbin
 agent/service/application/service.rb  /usr/share/mcollective/plugins/mcollective/application

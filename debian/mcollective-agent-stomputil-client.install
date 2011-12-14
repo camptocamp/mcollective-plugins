@@ -1,2 +1,2 @@
-agent/stomputil/mc-peermap         /usr/sbin
-agent/stomputil/mc-collectivemap   /usr/sbin
+agent/stomputil/sbin/mc-peermap         /usr/sbin
+agent/stomputil/sbin/mc-collectivemap   /usr/sbin

@@ -1,2 +1,1 @@
-agent/package/mc-package              /usr/sbin
 agent/package/application/package.rb  /usr/share/mcollective/plugins/mcollective/application

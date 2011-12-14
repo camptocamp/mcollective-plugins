@@ -1,1 +1,1 @@
-agent/process/mc-pgrep     /usr/sbin
+agent/process/sbin/mc-pgrep             /usr/sbin
