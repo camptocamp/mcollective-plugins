@@ -1,3 +1,25 @@
+mcollective-plugins (1.3) lenny squeeze lucid oneiric; urgency=low
+
+  * Merge Marc Fournier's changes.
+
+ -- Raphaël Pinson <raphael.pinson@camptocamp.com>  Tue, 24 Apr 2012 14:05:28 +0200
+
+mcollective-plugins (1.2) lenny squeeze lucid oneiric precise; urgency=low
+
+  * mcollective-agent-process depends on ruby-sys-proctable,
+    not rubygem-sys-proctable. 
+
+ -- Raphaël Pinson <raphael.pinson@camptocamp.com>  Tue, 17 Apr 2012 10:01:22 +0200
+
+mcollective-plugins (1.1) lenny squeeze lucid oneiric precise; urgency=low
+
+  * Add augeasquery agent from
+    https://github.com/camptocamp/unixdaemon-mcollective-plugins;
+  * Use a native version number;
+  * Build-Depend on debhelper.
+
+ -- Raphaël Pinson <raphael.pinson@camptocamp.com>  Tue, 17 Apr 2012 09:43:09 +0200
+
 mcollective-plugins (1.0-3) lenny squeeze; urgency=low
 
   * merged changes from upstream

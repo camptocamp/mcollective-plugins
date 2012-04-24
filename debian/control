@@ -1,6 +1,7 @@
 Source: mcollective-plugins
 Priority: optional
 Maintainer: Marc Fournier <marc.fournier@camptocamp.com>
+Build-Depends: debhelper (>= 5)
 Section: sysadmin
 Standards-Version: 3.7.3
 
@@ -91,10 +92,20 @@ Description: MCollective puppetca agent
 
 Package: mcollective-security-sshkey
 Architecture: all
-Depends: mcollective, rubygem-sshkeyauth
+Depends: mcollective, ruby-sshkeyauth
 Description: MCollective sshkey security provider
 
 Package: puppetcommander
 Architecture: all
 Depends: mcollective-agent-puppetd-client
 Description: puppet scheduler using MCollective
+
+Package: mcollective-agent-augeasquery
+Architecture: all
+Depends: mcollective
+Description: MCollective augeasquery agent
+
+Package: mcollective-agent-augeasquery-client
+Architecture: all
+Depends: mcollective
+Description: MCollective augeasquery agent (client)
