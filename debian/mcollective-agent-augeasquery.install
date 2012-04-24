@@ -1,0 +1,2 @@
+agent/augeasquery/agent/augeasquery.rb        /usr/share/mcollective/plugins/mcollective/agent
+agent/augeasquery/agent/augeasquery.ddl       /usr/share/mcollective/plugins/mcollective/agent
