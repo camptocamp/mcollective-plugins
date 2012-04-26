@@ -238,6 +238,7 @@ rm -rf %{buildroot}
 %{plugindir}/agent/package.rb
 %{plugindir}/agent/package.ddl
 %{plugindir}/application/package.rb
+%{plugindir}/application/upgrade.rb
 
 %files filemgr
 %defattr(-,root,root)
