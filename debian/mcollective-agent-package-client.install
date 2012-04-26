@@ -1,1 +1,2 @@
 agent/package/application/package.rb  /usr/share/mcollective/plugins/mcollective/application
+agent/package/application/upgrade.rb  /usr/share/mcollective/plugins/mcollective/application
