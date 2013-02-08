@@ -1,13 +1,13 @@
 module MCollective
   module Agent
     class Process<RPC::Agent
-      metadata    :name        => "SimpleRPC Agent For Process Management",
+      metadata    :name        => "process",
                   :description => "Agent To Manage Processes",
                   :author      => "R.I.Pienaar",
                   :license     => "Apache 2.0",
-                  :version     => "1.1",
+                  :version     => "1.3",
                   :url         => "http://projects.puppetlabs.com/projects/mcollective-plugins/wiki",
-                  :timeout     => 3
+                  :timeout     => 10
 
       # List all processes, accepts an optional pattern
       action "list" do

@@ -1,8 +1,8 @@
-metadata    :name        => "Puppet Controller Agent",
+metadata    :name        => "puppetd",
             :description => "Run puppet agent, get its status, and enable/disable it",
             :author      => "R.I.Pienaar",
             :license     => "Apache License 2.0",
-            :version     => "1.4",
+            :version     => "1.8",
             :url         => "https://github.com/puppetlabs/mcollective-plugins",
             :timeout     => 20
 
@@ -23,6 +23,10 @@ action "last_run_summary", :description => "Get a summary of the last puppet run
     output :events,
            :description => "Number of events",
            :display_as => "Events"
+
+    output :version,
+           :description => "Puppet and Catalog versions",
+           :display_as => "Versions"
 end
 
 action "enable", :description => "Enable puppet agent" do
@@ -54,6 +58,10 @@ end
 action "status", :description => "Get puppet agent's status" do
     display :always
 
+    output :status,
+           :description => "The status of the puppet agent: disabled, running, idling or stopped",
+           :display_as => "Status"
+
     output :enabled,
            :description => "Whether puppet agent is enabled",
            :display_as => "Enabled"
@@ -61,6 +69,14 @@ action "status", :description => "Get puppet agent's status" do
     output :running,
            :description => "Whether puppet agent is running",
            :display_as => "Running"
+
+    output :idling,
+           :description => "Whether puppet agent is idling",
+           :display_as => "Idling"
+
+    output :stopped,
+           :description => "Whether puppet agent is stopped",
+           :display_as => "Stopped"
 
     output :lastrun,
            :description => "When puppet agent last ran",
